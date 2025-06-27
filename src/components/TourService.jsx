@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MapPin, Plane, Camera } from 'lucide-react';
 
 const TourBooking = () => {
@@ -7,6 +7,10 @@ const TourBooking = () => {
     duration: '',
     budget: '',
   });
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, []);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

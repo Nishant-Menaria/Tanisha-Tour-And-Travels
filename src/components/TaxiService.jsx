@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const cars = [
   {
@@ -105,24 +105,10 @@ const cars = [
 
 const TaxiService = () => {
   const [selectedCar, setSelectedCar] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(0);
 
-  const closeGallery = () => {
-    setSelectedCar(null);
-    setActiveIndex(0);
-  };
-
-  const handleNext = () => {
-    setActiveIndex((prev) =>
-      prev + 1 < selectedCar.images.length ? prev + 1 : 0
-    );
-  };
-
-  const handlePrev = () => {
-    setActiveIndex((prev) =>
-      prev - 1 >= 0 ? prev - 1 : selectedCar.images.length - 1
-    );
-  };
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, []);
 
   return (
     <section id="taxi-service" className="scroll-mt-20">
@@ -200,7 +186,7 @@ const TaxiService = () => {
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 justify-center mt-4">
-                <a
+                  <a
                     href={`https://wa.me/9414161002?text=Hi, I'm interested in booking the ${car.name} taxi.`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -208,15 +194,10 @@ const TaxiService = () => {
                   >
                     Book Now
                   </a>
-
-                  
                 </div>
               </div>
             ))}
           </div>
-
-          
-          
         </div>
       </div>
     </section>

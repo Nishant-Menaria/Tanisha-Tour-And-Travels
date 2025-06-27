@@ -190,10 +190,8 @@ const RentalService = () => {
   };
 
   useEffect(() => {
-    if (hasInteracted && sectionRef.current) {
-      // prevent scroll to top effect
-    }
-  }, [activeTab, hasInteracted]);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, []);
 
   return (
     <section ref={sectionRef} className="pt-20 scroll-mt-20 bg-white min-h-screen px-6 py-16">
