@@ -8,7 +8,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Diesel',
     seats: 7,
-    rate: '₹5000 / 24 hrs',
+    rate: '₹5000 / 12 hrs',
   },
   {
     name: 'Mahindra Thar',
@@ -16,7 +16,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Diesel',
     seats: 4,
-    rate: '₹5000 / 24 hrs',
+    rate: '₹5000 / 12 hrs',
   },
   {
     name: 'Whillys',
@@ -24,7 +24,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹2000 / 24 hrs',
+    rate: '₹5000 / 12 hrs',
   },
   {
     name: 'Maruti Dzire',
@@ -32,7 +32,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹3000 / 24 hrs',
+    rate: '₹3000 / 12 hrs',
   },
   {
     name: 'Maruti Brezza',
@@ -40,7 +40,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹2800 / 24 hrs',
+    rate: '₹2800 / 12 hrs',
   },
   {
     name: 'Maruti XL6',
@@ -48,7 +48,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 6,
-    rate: '₹2900 / 24 hrs',
+    rate: '₹2900 / 12 hrs',
   },
   {
     name: 'Hyundai Creta',
@@ -56,7 +56,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Diesel',
     seats: 5,
-    rate: '₹2850 / 24 hrs',
+    rate: '₹2850 / 12 hrs',
   },
   {
     name: 'Kia Sonet',
@@ -64,7 +64,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Diesel',
     seats: 5,
-    rate: '₹3000 / 24 hrs',
+    rate: '₹3000 / 12 hrs',
   },
   {
     name: 'Maruti Ertiga',
@@ -72,7 +72,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 7,
-    rate: '₹3500 / 24 hrs',
+    rate: '₹3500 / 12 hrs',
   },
   {
     name: 'Hyundai i20',
@@ -80,7 +80,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹2600 / 24 hrs',
+    rate: '₹2600 / 12 hrs',
   },
   {
     name: 'Hyundai i10 Neos',
@@ -88,7 +88,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹2400 / 24 hrs',
+    rate: '₹2400 / 12 hrs',
   },
   {
     name: 'Hyundai Eon',
@@ -96,7 +96,7 @@ const cars = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 5,
-    rate: '₹2000 / 24 hrs',
+    rate: '₹2000 / 12 hrs',
   },
 ];
 
@@ -107,7 +107,7 @@ const bikes = [
     transmission: 'Automatic',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹400 / 24 hrs',
+    rate: '₹500 / 12 hrs',
     advance: '₹1500'
   },
   {
@@ -116,7 +116,7 @@ const bikes = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹500 / 24 hrs',
+    rate: '₹600 / 12 hrs',
     advance: '₹2000'
   },
   {
@@ -125,7 +125,7 @@ const bikes = [
     transmission: 'Automatic',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹400 / 24 hrs',
+    rate: '₹500 / 12 hrs',
     advance: '₹1500'
   },
   {
@@ -134,7 +134,7 @@ const bikes = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹700 / 24 hrs',
+    rate: '₹800 / 12 hrs',
     advance: '₹2000'
   },
   {
@@ -143,7 +143,7 @@ const bikes = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹1000 / 24 hrs',
+    rate: '₹1100 / 12 hrs',
     advance: '₹3000'
   },
   {
@@ -152,7 +152,7 @@ const bikes = [
     transmission: 'Manual',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹1200 / 24 hrs',
+    rate: '₹1400 / 12 hrs',
     advance: '₹3000'
   },
   {
@@ -161,7 +161,7 @@ const bikes = [
     transmission: 'Automatic',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹400 / 24 hrs',
+    rate: '₹500 / 12 hrs',
     advance: '₹1500'
   },
   {
@@ -170,7 +170,7 @@ const bikes = [
     transmission: 'Automatic',
     fuel: 'Petrol',
     seats: 2,
-    rate: '₹400 / 24 hrs',
+    rate: '500 / 12 hrs',
     advance: '₹1500'
   }
 ];
@@ -207,7 +207,7 @@ const RentalService = () => {
             <li>Driving Licence is compulsory</li>
             <li>Aadhar Card is compulsory</li>
             <li>Security Deposit is compulsory</li>
-            <li>The vehicle is available for <strong>8 hours only</strong></li>
+            <li>The vehicle is available for <strong>12 hours only</strong></li>
           </ul>
         </div>
 
