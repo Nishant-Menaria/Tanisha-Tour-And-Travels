@@ -196,13 +196,13 @@ const RentalService = () => {
   return (
     <section ref={sectionRef} className="pt-20 scroll-mt-20 bg-white min-h-screen px-6 py-16">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-blue-700 text-center mb-6">Self-Drive Rental Vehicles</h1>
+        <h1 className="text-4xl font-bold text-red-700 text-center mb-6">Self-Drive Rental Vehicles</h1>
         <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-10">
           Choose from a wide range of well-maintained vehicles for self-drive rentals. Enjoy flexible rental plans, minimal documentation, and complete freedom on the road.
         </p>
 
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 shadow-sm mb-6">
-          <h2 className="text-xl font-semibold text-blue-800 mb-4">Terms & Conditions:</h2>
+          <h2 className="text-xl font-semibold text-red-800 mb-4">Terms & Conditions:</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>Driving Licence is compulsory</li>
             <li>Aadhar Card is compulsory</li>

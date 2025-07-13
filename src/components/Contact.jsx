@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 px-6 bg-gray-100 text-center">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-6">
           Contact Us
         </h2>
         <p className="text-gray-700 text-lg mb-10">
@@ -15,7 +15,7 @@ const Contact = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">📞 Phone / WhatsApp</h3>
             <p className="text-gray-600 mb-4">
-              <a href="tel:+919414161002" className="text-blue-600 hover:underline">
+              <a href="tel:+919414161002" className="text-red-600 hover:underline">
                 +91 9414161002
               </a>
               <br />
@@ -27,14 +27,13 @@ const Contact = () => {
             <h3 className="text-xl font-semibold text-gray-800 mb-2">📧 Email</h3>
             <p className="text-gray-600 mb-4">
               <a href="mailto:your@email.com" className="hover:underline">
-                your@email.com
+                tanishatoursandtravels2226@gmail.com
               </a>
             </p>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-2">📍 Address</h3>
             <p className="text-gray-600">
-              Paneriyo Ki Madri , Near Water Tank , sec-5 , Udaipur ,Rajasthan
-            </p>
+              Paneriyo Ki Madri , Near Water Tank , Udaipur </p>
           </div>
 
           {/* Optional future form placeholder */}
@@ -43,7 +42,7 @@ const Contact = () => {
             <p className="text-sm text-gray-500 mb-4">
               (Form integration coming soon)
             </p>
-            <button className="w-full bg-blue-600 text-white py-2 rounded-lg opacity-50 cursor-not-allowed">
+            <button className="w-full bg-red-600 text-white py-2 rounded-lg opacity-50 cursor-not-allowed">
               Submit
             </button>
           </div>

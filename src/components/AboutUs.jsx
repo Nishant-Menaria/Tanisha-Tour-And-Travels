@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section id="about" ref={ref} className="py-20 px-6 bg-white text-center">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-6">
           About Us
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -22,7 +22,7 @@ const About = () => {
         </p>
 
         {/* Animated Stats */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-blue-700">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-red-700">
           <div>
             <h3 className="text-4xl font-bold">
               {inView ? <CountUp end={1000} duration={2} /> : '0'}+

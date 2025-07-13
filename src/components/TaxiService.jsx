@@ -133,7 +133,7 @@ const TaxiService = () => {
             />
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-blue-700 mb-4">
+            <h2 className="text-3xl font-bold text-red-700 mb-4">
               Taxi & Cab Services in Udaipur
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -152,7 +152,7 @@ const TaxiService = () => {
       {/* Udaipur Info Section */}
       <div className="py-16 px-6 bg-blue-50">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-blue-800 mb-6">Why Visit Udaipur?</h2>
+          <h2 className="text-3xl font-bold text-red-800 mb-6">Why Visit Udaipur?</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
             Udaipur, often known as the <strong>“City of Lakes”</strong>, is the beautiful city in the Indian state of Rajasthan. 
             Known for its palatial architecture, shimmering lakes, and rich cultural heritage, Udaipur has earned its reputation 
@@ -169,7 +169,7 @@ const TaxiService = () => {
       {/* Fleet Section */}
       <div className="py-20 px-6 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-blue-700 mb-10">Our Cab Fleet</h2>
+          <h2 className="text-3xl font-bold text-red-700 mb-10">Our Cab Fleet</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {cars.map((car, index) => (

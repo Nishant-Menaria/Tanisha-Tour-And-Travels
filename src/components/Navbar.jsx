@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         
         {/* Brand Name */}
-        <div className="text-2xl font-extrabold text-blue-600 tracking-wide">
+        <div className="text-2xl font-extrabold text-red-600 tracking-wide">
           <Link to="/">Tanisha <span className="text-gray-800">Tour & Travels</span></Link>
         </div>
 
@@ -16,7 +16,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/#home"
-              className="hover:text-blue-600 transition-colors duration-200"
+              className="hover:text-red-600 transition-colors duration-200"
             >
               Home
             </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/#services"
-              className="hover:text-blue-600 transition-colors duration-200"
+              className="hover:text-red-600 transition-colors duration-200"
             >
               Services
             </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/#about"
-              className="hover:text-blue-600 transition-colors duration-200"
+              className="hover:text-red-600 transition-colors duration-200"
             >
               About
             </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/#contact"
-              className="hover:text-blue-600 transition-colors duration-200"
+              className="hover:text-red-600 transition-colors duration-200"
             >
               Contact
             </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
             href="https://wa.me/9414161002" 
             target="_blank" 
             rel="noreferrer"
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition"
+            className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-red-700 transition"
           >
             WhatsApp Us
           </a>
