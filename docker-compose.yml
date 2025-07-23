@@ -1,9 +1,6 @@
 services:
   frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-
+    image: nishantmenaria/test
     ports:
     - "80:80"
     container_name: vite-frontend
