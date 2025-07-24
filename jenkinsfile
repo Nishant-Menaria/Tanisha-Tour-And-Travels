@@ -1,0 +1,35 @@
+@Library("shared") _
+pipeline{
+    agent {label "vinod"}
+    
+    stages{
+        stage("code"){
+            steps{
+                script{
+                clone("https://github.com/Nishant-Menaria/Tanisha-Tour-And-Travels" ,"main")
+                }
+            }
+        }
+        stage("building image"){
+            steps{
+                echo "building image"
+                sh "docker build -t test ."
+                echo "image build successful"
+            }
+        }
+        stage("push to dockerHub"){
+            steps{
+                script{
+                    push("test","latest")
+                }
+            }
+        }
+        stage("deploy"){
+            steps{
+                echo "deploying"
+                sh "docker compose up -d"
+                echo "deployed successful"
+            }
+        }
+    }
+}
